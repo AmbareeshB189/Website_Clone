@@ -1,0 +1,158 @@
+.vr{
+    height: 50px;
+    width: auto;
+    color: white;
+    font-weight: bold;
+}
+
+.Carousel_info{
+    background-color: #a67137;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.info_site{
+    columns: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for the property details section */
+.property-details {
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.property-details .left p {
+    font-weight: bold;
+    color: #333;
+}
+
+.property-details .right {
+    text-align: right;
+}
+
+.property-details .right p {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styles for the announcement section */
+.announcement-section {
+    background-color: #a0774d;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+}
+
+.announcement-section .bordered-box {
+    border: 2px dashed white;
+    padding: 30px;
+    display: inline-block;
+}
+
+.announcement-section p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.brochure-btn {
+    background-color: #a57a40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 900px;
+    border-radius: 8px;
+}
+
+.form-section {
+    background-color: #e5e5e5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    background-color: #a57a40;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    background-color: #8c6532;
+}
+
+.dsec{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.price{
+    text-align: center;
+    padding: 15px;
+}
+.price_block{
+    padding: 10px;
+    background-color:white ;
+}
+.price_blockx{
+    padding: 10px;
+}
+.bt{
+    background-color: #a57a40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
